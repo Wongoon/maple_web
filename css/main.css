@@ -1,0 +1,49 @@
+@import url(reset.css);
+header{
+    top:10px;
+    width:1600px;
+    position:relative;
+    z-index:1;
+}
+.nav{
+    display:flex;
+    justify-content: center;
+}
+.nav > li{
+    float:left;
+    height:50px;
+    width:200px;
+    background-color:#fff;
+}
+.nav > li > a{
+    display: block;
+    line-height:50px;
+    font-size:22px;
+    font-weight: bold;
+    text-align:center;
+    color:#333;
+    width:100%;
+    transition:all 0.5s ease;
+}
+.nav > li:hover > a{
+    background-color: #2b2b37;
+    color:#f68500;
+}
+.nav_in{
+    display: none;
+    background-color:#2b2b37;
+    border:1px solid #2b2b37;
+    border-width:0px 1px !important;
+}
+.nav_in > li{
+    height:50px;
+    width:200px;
+    text-align: center;
+}
+.nav_in > li > a{
+    color:#fff;
+    transition:all 0.3s ease;
+}
+.nav_in > li > a:hover, .nav_in > li:hover > a{
+    color:#f68500 !important;
+}
