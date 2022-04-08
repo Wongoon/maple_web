@@ -23,6 +23,7 @@ header{
     text-align:center;
     color:#333;
     width:100%;
+    height:100%;
     transition:all 0.5s ease;
 }
 .nav > li:hover > a{
